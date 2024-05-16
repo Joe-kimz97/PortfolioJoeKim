@@ -211,8 +211,10 @@ let body= "Name :" + name.value +  "<br/> Email :" + email.value  +  "<br/> Subj
       }).then(
         message => alert(message)
       );
-      console.log("nous avons reçus ! ")
+      
+      console.log("nous avons reçus votre mail !");
       document.getElementById("contactform").reset();
+      
     }
     
 
