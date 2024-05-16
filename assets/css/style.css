@@ -24,6 +24,10 @@ a:hover {
   text-decoration: none;
 }
 
+#btn-env:hover {
+  background: #3dc8b7;
+}
+
 #btn-env {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
