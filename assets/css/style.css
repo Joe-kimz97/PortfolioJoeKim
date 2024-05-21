@@ -44,6 +44,27 @@ a:hover {
   background: #34b7a7;
 }
 
+.btn-whatsapp {
+  font-family: "Raleway", sans-serif;
+  
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #34b7a7;
+}
+
+.btn-whatsapp :hover{
+  background-color: #35b0a0;
+}
+
+
 h1,
 h2,
 h3,
