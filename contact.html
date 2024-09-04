@@ -133,7 +133,7 @@
                   <input type="text" name="name" class=" name form-control" id="name" placeholder="Votre nom" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class=" email form-control" name="email" id="email"
+                  <input type="email" class="email form-control" name="email" id="email"
                     placeholder="Votre adresse mail" required>
                 </div>
               </div>
@@ -214,7 +214,7 @@ let body= "Name :" + name.value +  "<br/> Email :" + email.value  +  "<br/> Subj
       Email.send({
         SecureToken : "19cfd035-d87a-46ca-8ffa-fc90ea9119fa ",
         To: "joekimz97@gmail.com",
-        From: "joekimz97@gmail.com",
+        From:"joekimz97@gmail.com" ,
         Subject: "Message contact form portfolios",
         Body: body
       }).then(
