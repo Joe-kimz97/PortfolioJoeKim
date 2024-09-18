@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var re = /\S+@\S+\.\S+/;
         return re.test(email);
     }
-
+ 
     function sendMessage(name, email, subject, messageContent) {
         // Envoyer les données au serveur pour l'envoi du message
         var xhr = new XMLHttpRequest();
